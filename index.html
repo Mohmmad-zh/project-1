@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<link rel="stylesheet" href="style.css">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>To-Do List</title>
     
+</head>
+
+<body>
+    <h1>To-do List</h1>
+    <form class="input" autocomplete="off">
+        <label for="text"></label>
+        <input type="text" id="text" placeholder="Enter here.." >
+        <button id="btn">Add</button>
+        
+    </form>
+    <small
+    >Left click to complete. <br />Right click to delete the
+    todo. <br />Double click to edit the todo</small>
+    <div>
+        <ul class="list">
+        </ul>
+    </div>
+   <script src="script.js"></script>
 </body>
+
 </html>
